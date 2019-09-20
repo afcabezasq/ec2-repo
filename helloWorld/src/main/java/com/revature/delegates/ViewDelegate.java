@@ -16,7 +16,7 @@ public class ViewDelegate {
 		String path = request.getServletPath();
 		switch(path) {
 		case "/holi":
-			request.getRequestDispatcher("/static/Views/Holi.html").forward(request, response);
+			request.getRequestDispatcher("/static/Views/Manager.html").forward(request, response);
 			break;
 		default:
 			response.sendError(404, "static resource not found");
