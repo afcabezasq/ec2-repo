@@ -4,7 +4,7 @@ addons:
   sonarcloud:
     organization: "afcabezasq"
     token:
-      secure: "**************************" # encrypted value of your token
+      secure: "53f5c9547702c2124cfffee4b9dd31d7b3bb9b1a" # encrypted value of your token
 
 before_install: cd helloWorld
 script:
